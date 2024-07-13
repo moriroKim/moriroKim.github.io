@@ -1,0 +1,41 @@
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.main .main-bnr {
+    width: 100vw;
+    height: 60%;
+    min-height: 22.625rem;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    padding: 2rem;
+
+    background: var(--gradient-bnr);
+    box-shadow: 0 5px 50px 0 #bf00ffa0;
+}
+
+.main .main-bnr .phrase {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main .main-bnr .phrase h2 {
+    font-family: "Kanit";
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0.6rem;
+    
+    margin-bottom: 1rem;
+    color: var(--white-color);
+}
